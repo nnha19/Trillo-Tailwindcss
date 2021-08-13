@@ -21,3 +21,12 @@
     bg-primary
     rounded-full;
 }
+.btn-letter:hover {
+  letter-spacing: 3px;
+}
+.linear-btn {
+  background: linear-gradient(to right, #ff3366, #ba265d);
+}
+.linear-btn:hover {
+  background: linear-gradient(to left, #ff3366, #ba265d);
+}
