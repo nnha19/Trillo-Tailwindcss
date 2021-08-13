@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./public/tailwind.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container bg-primary min-h-screen p-10">
+      <section class="shadow-lg w-4/5 mx-auto mt-12">
+        <nav class="bg-white flex justify-between items-center h-16">
+          <div class="pl-4">
+            <img src="./imgs/logo.png" class="h-12" alt="" />
+          </div>
+          <div class="flex-1 text-center">
+            <input
+              class="
+                px-6
+                py-2
+                bg-secondaryHover
+                w-2/4
+                border-none
+                outline-none
+                rounded-full
+                focus:w-3/5
+                transition-all
+              "
+              placeholder="Search hotels"
+              type="text"
+            />
+            <i class="fas fa-search -ml-10"></i>
+          </div>
+          <ul class="flex items-center self-stretch">
+            <li class="nav-link">
+              <i class="fas fa-comments text-2xl relative">
+                <span class="num">4</span>
+              </i>
+            </li>
+            <li class="nav-link">
+              <i class="fas fa-bookmark text-2xl relative">
+                <span class="num">6</span>
+              </i>
+            </li>
+            <li class="nav-link mr-0">
+              <img
+                class="h-5/6 rounded-full"
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+              <span class="ml-3">Johnas</span>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex">
+          <div class="w-3/12 bg-bgPrimary">Sidebar</div>
+          <div class="flex-1">
+            <div class="flex h-56">
+              <figure>
+                <img class="h-full block w-full" src="./imgs/hotel-1.jpg" alt="" />
+              </figure>
+              <figure>
+                <img class="h-full block w-full" src="./imgs/hotel-2.jpg" alt="" />
+              </figure>
+              <figure>
+                <img class="h-full block w-full" src="./imgs/hotel-3.jpg" alt="" />
+              </figure>
+            </div>
+            <div">
+              <div class="bg-white flex pl-8 h-18 items-center">
+                <h1 class="text-primary mr-6 text-2xl uppercase">
+                  Hotel Las Palmas
+                </h1>
+                <div class="text-primary text-sm">
+                  <i class="fas fa-star mr-1"></i
+                  ><i class="fas fa-star mr-1"></i
+                  ><i class="fas fa-star mr-1"></i
+                  ><i class="fas fa-star mr-1"></i
+                  ><i class="fas fa-star mr-1"></i>
+                </div>
+                <div class="ml-auto flex self-stretch">
+                  <div class="text-primary text-sm mr-6 flex items-center">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <button class="ml-2 underline">Albufeira, Portugal</button>
+                  </div>
+                  <div class="bg-primary px-4 text-center text-white py-1">
+                    <span class="block text-2xl">8.6</span>
+                    <span>429 votes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
