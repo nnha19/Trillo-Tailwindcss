@@ -30,3 +30,8 @@
 .linear-btn:hover {
   background: linear-gradient(to left, #ff3366, #ba265d);
 }
+@media (max-width: 1000px) {
+  html {
+    font-size: 70%;
+  }
+}
